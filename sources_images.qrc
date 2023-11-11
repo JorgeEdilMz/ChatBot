@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="images">
+    <file>send.png</file>
+    <file>chat.png</file>
+  </qresource>
+</RCC>
