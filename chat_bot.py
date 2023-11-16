@@ -161,6 +161,7 @@ class MyApp(QtWidgets.QMainWindow,Ui_MainWindow):
         ]
     ]
     reflections = {
+        "me": "tú",
         "yo": "tú",
         "tú": "yo",
         "mi": "tu",
@@ -184,6 +185,7 @@ class MyApp(QtWidgets.QMainWindow,Ui_MainWindow):
         "sé": "sabes",
         "sabes": "sé",
         "puedo": "puedes",
+        "siento": "sientes",
         "puedes": "puedo",
         "voy": "vas",
         "vas": "voy",
