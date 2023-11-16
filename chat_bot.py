@@ -17,15 +17,15 @@ class MyApp(QtWidgets.QMainWindow,Ui_MainWindow):
     pairs = [
         [
             r"Hola (.*)",
-            ["hola %1, que vamos hacer hoy?"]
+            ["¡Hola %1! ¿Cómo estás hoy?", "¡Hola! ¿Qué tal %1?", "Hola %1, ¿en qué puedo ayudarte?"]
         ],
         [
             r"Ey|hi|hello|hola",
-            ["hola!!!😎😎 que vamos hacer hoy?"]
+            ["¡Hola! 😊 ¿Cómo estás hoy?", "¡Ey! ¿Qué tal? 😎", "¡Hola! ¿Qué emocionante plan tienes para hoy?", "¡Hola! 😄 ¿En qué puedo ayudarte hoy?", "¡Hola! 😊 ¿Listo para un día increíble?"]
         ],
         [
             r"nada|no se",
-            ["Se que se ocurrirá algo!"]
+            ["Sé que se ocurrirá algo emocionante pronto.", "A veces, lo inesperado es lo más emocionante. ¿Algo en particular en lo que pueda ayudarte?", "¡Nada puede convertirse en algo sorprendente", "No hay problema. A veces es bueno dejar que las cosas fluyan."]
         ],
         [
             r"jajajaja|jaja|jsjsjs|xd|jajaja",
@@ -37,7 +37,7 @@ class MyApp(QtWidgets.QMainWindow,Ui_MainWindow):
         ],
         [
             r"salir|salir a comer|cantar|ir de compras",
-            ["Genial! Puedo ir contigo?"]
+            ["¡Genial! ¿Puedo unirme?", "¡Me encantaría acompañarte!", "¡Por supuesto! ¿A dónde te gustaría ir?", "¡Son opciones increíbles! ¿Puedo participar?", "¡Eso suena divertido! ¿Puedo ser parte de la diversión?"]
         ],
         [
             r"no",
@@ -65,11 +65,11 @@ class MyApp(QtWidgets.QMainWindow,Ui_MainWindow):
         ],
         [
             r"Cuentame un chiste|dime un chiste",
-            ["¿Por qué el tomate se puso rojo? Porque vio a la ensalada \ndesnuda JAJAJAJAJA"]
+            ["¿Por qué el tomate se puso rojo? Porque vio a la ensalada \ndesnuda JAJAJAJAJA", "No quiero"]
         ],
         [
             r"Tienes pareja?|tienes novia?|tienes novio?",
-            ["Cómo se te ocurre!!!, yo soy fiel a tí"]
+            ["Cómo se te ocurre!!!, yo soy fiel a tí","Si tú"]
         ],
         [
             r"dime algo interesante|dime un dato interesante",
